@@ -37,8 +37,8 @@ export default function Section({
   ],
 }: Props) {
   return (
-    <div class="bg-base-100 text-base-content">
-        <div class="lg:container mx-8 md:mx-16 lg:mx-auto mb-8 lg:mb-20 pt-8  flex flex-col lg:flex-row gap-10 text-xl md:text-base">
+    <div class="bg-base-100 text-base-content pt-16 pb-4">
+        <div class="lg:container mx-8 md:mx-16 lg:mx-auto mb-8 pt-8 flex flex-col lg:flex-row gap-10 text-xl md:text-base xl:px-32">
             <h2 class="flex-none lg:w-56 font-bold pb-2 lg:border-none hidden">
                 {title}
             </h2>
@@ -46,7 +46,7 @@ export default function Section({
                 {items.map((item) => {
                 return (
                     <div class="flex flex-col md:pb-8 gap-2">
-                        <h3 class="flex-none text-xl font-bold">{item.title}</h3>
+                        <h3 class="flex-none text-3xl font-bold">{item.title}</h3>
                         <div
                             class="flex-auto"
                             dangerouslySetInnerHTML={{ __html: item.text }}

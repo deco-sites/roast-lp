@@ -36,18 +36,18 @@ export default function Hero({
         ? `url(${bgImage})`
         : "",
     }}>
-      <div class="lg:container mx-8 md:mx-16 lg:mx-auto mt-8 md:mt-12 mb-28 text-xl md:text-base">
+      <div class="lg:container mx-8 md:mx-16 lg:mx-auto mt-8 md:mt-12 mb-28 text-xl md:text-base xl:px-32">
         <div class="mb-10 md:mb-20">
           <img
-            class="object-cover w-20"
+            class="object-cover w-20 text-base-content"
             src={logo}
             alt={title}
           />
         </div>
-        <div class="font-bold text-3xl lg:text-6xl leading-tight lg:leading-none xl:w-5/6">
+        <div class="font-bold text-3xl lg:text-6xl leading-tight lg:leading-none">
           {title}
         </div>
-        <div class="xl:w-5/6 mt-6">
+        <div class="mt-6">
           {headline}
         </div>
         {!!links?.length && (

@@ -3,22 +3,24 @@
 // This file is automatically updated during development when running `dev.ts`.
 
 import * as $$$$$$0 from "./sections/Hero.tsx";
-import * as $$$$$$1 from "./sections/FeaturesList.tsx";
-import * as $$$$$$2 from "./sections/Theme.tsx";
-import * as $$$$$$3 from "./sections/Footer.tsx";
-import * as $$$$$$4 from "./sections/SimpleTextList.tsx";
-import * as $$$$$$5 from "./sections/ParagraphList.tsx";
+import * as $$$$$$1 from "./sections/TextWithImage.tsx";
+import * as $$$$$$2 from "./sections/FeaturesList.tsx";
+import * as $$$$$$3 from "./sections/Theme.tsx";
+import * as $$$$$$4 from "./sections/Footer.tsx";
+import * as $$$$$$5 from "./sections/SimpleTextList.tsx";
+import * as $$$$$$6 from "./sections/ParagraphList.tsx";
 import * as $$$$$$$$$$$0 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
 
 const manifest = {
   "sections": {
-    "deco-sites/roast-lp/sections/FeaturesList.tsx": $$$$$$1,
-    "deco-sites/roast-lp/sections/Footer.tsx": $$$$$$3,
+    "deco-sites/roast-lp/sections/FeaturesList.tsx": $$$$$$2,
+    "deco-sites/roast-lp/sections/Footer.tsx": $$$$$$4,
     "deco-sites/roast-lp/sections/Hero.tsx": $$$$$$0,
-    "deco-sites/roast-lp/sections/ParagraphList.tsx": $$$$$$5,
-    "deco-sites/roast-lp/sections/SimpleTextList.tsx": $$$$$$4,
-    "deco-sites/roast-lp/sections/Theme.tsx": $$$$$$2,
+    "deco-sites/roast-lp/sections/ParagraphList.tsx": $$$$$$6,
+    "deco-sites/roast-lp/sections/SimpleTextList.tsx": $$$$$$5,
+    "deco-sites/roast-lp/sections/TextWithImage.tsx": $$$$$$1,
+    "deco-sites/roast-lp/sections/Theme.tsx": $$$$$$3,
   },
   "apps": {
     "deco-sites/roast-lp/apps/decohub.ts": $$$$$$$$$$$0,
