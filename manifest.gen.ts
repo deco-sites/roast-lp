@@ -7,18 +7,20 @@ import * as $$$$$$1 from "./sections/TextWithImage.tsx";
 import * as $$$$$$2 from "./sections/FeaturesList.tsx";
 import * as $$$$$$3 from "./sections/Theme.tsx";
 import * as $$$$$$4 from "./sections/Footer.tsx";
-import * as $$$$$$5 from "./sections/SimpleTextList.tsx";
-import * as $$$$$$6 from "./sections/ParagraphList.tsx";
+import * as $$$$$$5 from "./sections/CTA.tsx";
+import * as $$$$$$6 from "./sections/SimpleTextList.tsx";
+import * as $$$$$$7 from "./sections/ParagraphList.tsx";
 import * as $$$$$$$$$$$0 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
 
 const manifest = {
   "sections": {
+    "deco-sites/roast-lp/sections/CTA.tsx": $$$$$$5,
     "deco-sites/roast-lp/sections/FeaturesList.tsx": $$$$$$2,
     "deco-sites/roast-lp/sections/Footer.tsx": $$$$$$4,
     "deco-sites/roast-lp/sections/Hero.tsx": $$$$$$0,
-    "deco-sites/roast-lp/sections/ParagraphList.tsx": $$$$$$6,
-    "deco-sites/roast-lp/sections/SimpleTextList.tsx": $$$$$$5,
+    "deco-sites/roast-lp/sections/ParagraphList.tsx": $$$$$$7,
+    "deco-sites/roast-lp/sections/SimpleTextList.tsx": $$$$$$6,
     "deco-sites/roast-lp/sections/TextWithImage.tsx": $$$$$$1,
     "deco-sites/roast-lp/sections/Theme.tsx": $$$$$$3,
   },
