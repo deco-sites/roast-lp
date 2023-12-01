@@ -16,8 +16,8 @@ export default function Section({
   invertSides,
 } : Props) {
   return (
-    <div class="bg-base-100 text-base-content">
-        <div class="lg:container mx-8 md:mx-16 lg:mx-auto mb-8 lg:mb-20 pt-8  flex flex-col lg:flex-row gap-10 text-xl md:text-base xl:px-32">
+    <div class="bg-base-100 text-base-content pb-16">
+        <div class="lg:container mx-8 md:mx-16 lg:mx-auto mb-8 pt-8  flex flex-col lg:flex-row gap-10 text-xl md:text-base xl:px-32">
             <div class={`flex flex-col lg:flex-row gap-20 items-center ${invertSides ? "lg:flex-row-reverse" : ""}`}>
                 <div>
                   <Picture>
