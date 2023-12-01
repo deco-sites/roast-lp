@@ -6,6 +6,7 @@ const theme = {
     "neutral": "hsl(var(--n))",
     "base-100": "hsl(var(--b1))",
     "base-content": "hsl(var(--bc))",
+    "primary-content": "hsl(var(--pc))",
   },
   "--rounded-box": "1rem", // border radius rounded-box utility class, used in card and other large boxes
   "--rounded-btn": "0.5rem", // border radius rounded-btn utility class, used in buttons and similar element
