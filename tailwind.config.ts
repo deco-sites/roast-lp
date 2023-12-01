@@ -2,13 +2,10 @@ const theme = {
   colors: {
     "primary": "hsl(var(--pf))",
     "secondary": "hsl(var(--sf))",
-    "accent": "hsl(var(--af))",
+    "tertiary": "hsl(var(--af))",
     "neutral": "hsl(var(--n))",
     "base-100": "hsl(var(--b1))",
-    "success": "hsl(var(--su))",
-    "warning": "hsl(var(--wa))",
-    "error": "hsl(var(--er))",
-    "info": "hsl(var(--in))",
+    "base-content": "hsl(var(--bc))",
   },
   "--rounded-box": "1rem", // border radius rounded-box utility class, used in card and other large boxes
   "--rounded-btn": "0.5rem", // border radius rounded-btn utility class, used in buttons and similar element
